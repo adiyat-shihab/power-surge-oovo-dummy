@@ -1,6 +1,8 @@
 import HeroSection from "@/components/sections/HeroSection";
 import FeaturesSection from "@/components/sections/FeaturesSection";
 import GridGallerySection from "@/components/sections/GridGallerySection";
+import AboutUsSection from "@/components/sections/AboutUsSection";
+import CrewSection from "@/components/sections/CrewSection";
 
 export default function Home() {
   return (
@@ -8,6 +10,8 @@ export default function Home() {
       <HeroSection />
       <FeaturesSection />
       <GridGallerySection />
+      <AboutUsSection />
+      <CrewSection />
     </main>
   );
 }
