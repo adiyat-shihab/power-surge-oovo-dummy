@@ -8,8 +8,20 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+
+  /* Custom Gym Colors */
+  --color-gym-red: #c60000;
+  --color-gym-red-hover: #c0000b;
+  --color-gym-dark: #1a1a1a;
+  --color-gym-gray: #bababa;
+  --color-gym-light-gray: #d2d2d2;
+  --color-gym-soft-vibe: #2d2d2d;
+
+  /* Custom Fonts */
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-roboto: var(--font-roboto-google), sans-serif;
+  --font-helvetica: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
