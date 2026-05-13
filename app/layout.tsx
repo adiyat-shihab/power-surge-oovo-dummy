@@ -23,6 +23,8 @@ export const metadata: Metadata = {
   description: "Level up your fitness game",
 };
 
+import Footer from "@/components/layout/Footer";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -33,7 +35,10 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} ${roboto.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col font-helvetica bg-gym-dark text-white">{children}</body>
+      <body className="min-h-full flex flex-col font-helvetica bg-gym-dark text-white">
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
